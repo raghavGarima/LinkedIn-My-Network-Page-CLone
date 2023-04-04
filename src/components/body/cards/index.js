@@ -8,7 +8,7 @@ return(
   <Grid container spacing={3} style={{justifyContent:"center",    marginTop: '-5px'}}>
   {cardData.map((info,index)=>{
     return (
-      <Grid item xs={12} sm={info?.workingAt?3:4} md={info?.workingAt=="Pristyn Care" || info?.workingAt=="Based On Your Profile" ?3:4} key={index}>
+      <Grid item xs={info?.workingAt=="Pristyn Care" || info?.workingAt=="Based On Your Profile" ?6:12} sm={info?.workingAt?3:4} md={info?.workingAt=="Pristyn Care" || info?.workingAt=="Based On Your Profile" ?3:4} key={index}>
   <Card sx={{    minHeight: "16.5rem"}} className="cardHover">
       <CardMedia
         sx={{ height:info?.workingAt? 65:57 }}

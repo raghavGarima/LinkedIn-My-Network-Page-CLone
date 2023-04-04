@@ -153,7 +153,7 @@ const Header=()=>{
     <Box sx={{ flexGrow: 1, height: "53px" }}>
       <AppBar position="static" sx={{backgroundColor:"white",color:"grey",alignItems:"center",boxShadow: "none",
   borderBottom: "1px solid #e7e2e2"}}>
-        <Toolbar sx={{ width: { xs: '100%', sm: '83%' }}} style={{minHeight: "58px"}}>
+        <Toolbar sx={{ width: { xs: '100%', sm: '83%' },paddingRight:{xs:"0px"},paddingLeft:{xs:"0px"}}} style={{minHeight: "58px"}}>
       
           <Typography
             variant="h6"

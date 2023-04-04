@@ -6,7 +6,7 @@ import { Box } from "@mui/material";
 const Left=()=>{
 
 return(
-  <Box sx={{ flexGrow: 1,backgroundColor:"#FFF",borderRadius:"10px", border: "1px solid #e1e1e1" }}>
+  <Box sx={{ flexGrow: 1,backgroundColor:"#FFF",borderRadius:{xs:"0px",sm:"10px"}, border: "1px solid #e1e1e1" }}>
   <LeftTop />
   <Box sx={{paddingBlock:"0.8rem", }}>
   <LeftBottom />

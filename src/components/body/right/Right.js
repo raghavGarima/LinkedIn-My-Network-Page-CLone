@@ -258,7 +258,7 @@ type:"View"
 },
   ]
 return(
-  <Box sx={{ flexGrow: 1, backgroundColor:"#FFF",borderRadius:"10px" ,border: "1px solid #e1e1e1" 
+  <Box sx={{ flexGrow: 1, backgroundColor:"#FFF",borderRadius:{xs:"0px",sm:"10px"} ,border: "1px solid #e1e1e1" 
 }}>
 <Grid container spacing={3} style={{justifyContent:"center",padding:"20px",    marginTop: "1px"    }}>
   <Grid item xs={10.5} md={10.5} style={{paddingTop: "0px"}}>
